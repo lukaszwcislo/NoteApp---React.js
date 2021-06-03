@@ -1,0 +1,21 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: unset;
+  grid-template-rows: 45px 65px 90px;
+  align-items: center;
+  padding: 30px 40px;
+
+  @media (min-width: 992px) {
+    padding: 30px 200px;
+    grid-template-rows: unset;
+    grid-template-columns: 140px 1fr 120px;
+  }
+}
+
+.logo {
+  width: 100%;
+
+  @media (max-width: 991.98px) {
+    max-width: 200px;
+  }
+}

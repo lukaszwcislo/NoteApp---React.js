@@ -1,0 +1,19 @@
+.noItems {
+  color: darkgrey;
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 200px;
+
+  @media (max-width: 991.98px) {
+    position: static;
+    margin-top: 50px;
+    padding: 0 40px;
+  }
+}
