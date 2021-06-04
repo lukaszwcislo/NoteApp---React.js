@@ -1,13 +1,13 @@
 # NoteApp
 
-To run the application, download the zip file or clone the repository by typing in the console:
+Preview: www.codetrip.pl/note-app
+
+To run the application locally, download the zip file or clone the repository by typing in the console:
 
 git clone https://github.com/lukaszwcislo/NoteApp---React.js
 
-Then install the dependencies
+Then install the dependencies, and run:
 
-npm install
-
-Run the applications locally
+npm i
 
 npm start
